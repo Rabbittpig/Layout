@@ -49,6 +49,19 @@
         android:layout_height="wrap_content"
         android:text="按钮666666666666666666666666666"
         />
-
+<TableRow>
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账号"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入账号"
+        />
+</TableRow>
 
 </TableLayout>
