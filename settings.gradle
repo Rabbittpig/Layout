@@ -1,3 +1,4 @@
+include ':framelayout'
 include ':linearlayout'
 include ':app'
 rootProject.name = "Layout"
