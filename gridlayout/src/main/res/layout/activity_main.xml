@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--android:columnCount="2"最大列数为2列-->
+    <!--android:rowCount="2" 最大行数为2-->
+    <Button
+        android:id="@+id/btn_Grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:text="按钮一" />
+<!--  android:layout_column="0"位于第一列  android:layout_row="0"第一行-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:text="按钮二" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"
+        android:text="按钮三" />
+    <!--跨两行android:layout_rowSpan="2"
+        android:layout_gravity="fill"-->
+</GridLayout>
